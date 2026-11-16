@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/LanGuard.Shared/LanGuard.Shared.csproj" />
+  <Project Path="src/LanGuard.Server/LanGuard.Server.csproj" />
+  <Project Path="src/LanGuard.Agent/LanGuard.Agent.csproj" />
+  <Project Path="src/LanGuard.Desktop/LanGuard.Desktop.csproj" />
+  <Project Path="tests/LanGuard.Tests/LanGuard.Tests.csproj" />
+</Solution>

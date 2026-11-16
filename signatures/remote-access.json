@@ -1,0 +1,657 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "id": "anydesk",
+      "productFamily": "AnyDesk",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "AnyDesk",
+        "AnyDesk MSI"
+      ],
+      "serviceNames": [
+        "AnyDesk"
+      ],
+      "processNames": [
+        "AnyDesk"
+      ],
+      "executableOriginalNames": [
+        "AnyDesk.exe"
+      ],
+      "publishers": [
+        "AnyDesk Software GmbH",
+        "philandro Software GmbH"
+      ],
+      "productMetadata": [
+        "AnyDesk"
+      ]
+    },
+    {
+      "id": "teamviewer",
+      "productFamily": "TeamViewer",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "TeamViewer",
+        "TeamViewer Host",
+        "TeamViewer Remote",
+        "TeamViewer QuickSupport"
+      ],
+      "serviceNames": [
+        "TeamViewer",
+        "TeamViewer_Service"
+      ],
+      "processNames": [
+        "TeamViewer",
+        "TeamViewer_Service",
+        "TeamViewerQS"
+      ],
+      "executableOriginalNames": [
+        "TeamViewer.exe",
+        "TeamViewer_Service.exe",
+        "TeamViewerQS.exe"
+      ],
+      "publishers": [
+        "TeamViewer Germany GmbH",
+        "TeamViewer GmbH"
+      ],
+      "productMetadata": [
+        "TeamViewer",
+        "TeamViewer Remote",
+        "TeamViewer QuickSupport"
+      ]
+    },
+    {
+      "id": "ammyy",
+      "productFamily": "Ammyy Admin",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Ammyy Admin",
+        "Ammy Admin",
+        "Ammyy"
+      ],
+      "serviceNames": [
+        "AmmyyAdmin"
+      ],
+      "processNames": [
+        "AA_v3",
+        "AmmyyAdmin",
+        "AMMYY_Admin"
+      ],
+      "executableOriginalNames": [
+        "AA_v3.exe",
+        "AmmyyAdmin.exe",
+        "AMMYY_Admin.exe"
+      ],
+      "publishers": [
+        "Ammyy Group"
+      ],
+      "productMetadata": [
+        "Ammyy Admin"
+      ]
+    },
+    {
+      "id": "assistent",
+      "productFamily": "Ассистент",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Ассистент",
+        "Ассистент Про",
+        "Assistent",
+        "Assistent Pro"
+      ],
+      "serviceNames": [],
+      "processNames": [],
+      "executableOriginalNames": [],
+      "publishers": [],
+      "productMetadata": [
+        "Ассистент",
+        "Ассистент Про",
+        "Assistent"
+      ],
+      "notes": "The vendor documents assistant.exe. The generic filename alone is insufficient for matching."
+    },
+    {
+      "id": "rudesktop",
+      "productFamily": "RuDesktop",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "RuDesktop"
+      ],
+      "serviceNames": [
+        "RuDesktop"
+      ],
+      "processNames": [
+        "RuDesktop"
+      ],
+      "executableOriginalNames": [
+        "RuDesktop.exe"
+      ],
+      "publishers": [],
+      "productMetadata": [
+        "RuDesktop"
+      ]
+    },
+    {
+      "id": "rustdesk",
+      "productFamily": "RustDesk",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "RustDesk"
+      ],
+      "serviceNames": [
+        "RustDesk"
+      ],
+      "processNames": [
+        "RustDesk"
+      ],
+      "executableOriginalNames": [
+        "RustDesk.exe"
+      ],
+      "publishers": [
+        "RustDesk"
+      ],
+      "productMetadata": [
+        "RustDesk"
+      ]
+    },
+    {
+      "id": "aeroadmin",
+      "productFamily": "AeroAdmin",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "AeroAdmin"
+      ],
+      "serviceNames": [
+        "AeroAdmin"
+      ],
+      "processNames": [
+        "AeroAdmin"
+      ],
+      "executableOriginalNames": [
+        "AeroAdmin.exe"
+      ],
+      "publishers": [],
+      "productMetadata": [
+        "AeroAdmin"
+      ]
+    },
+    {
+      "id": "supremo",
+      "productFamily": "Supremo",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Supremo",
+        "Supremo Remote Desktop"
+      ],
+      "serviceNames": [
+        "SupremoService"
+      ],
+      "processNames": [
+        "Supremo",
+        "SupremoService"
+      ],
+      "executableOriginalNames": [
+        "Supremo.exe"
+      ],
+      "publishers": [
+        "Nanosystems S.r.l."
+      ],
+      "productMetadata": [
+        "Supremo",
+        "Supremo Remote Desktop"
+      ]
+    },
+    {
+      "id": "dwservice",
+      "productFamily": "DWService",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "DWService",
+        "DWAgent"
+      ],
+      "serviceNames": [
+        "DWAgent"
+      ],
+      "processNames": [
+        "DWAgent"
+      ],
+      "executableOriginalNames": [
+        "DWAgent.exe"
+      ],
+      "publishers": [],
+      "productMetadata": [
+        "DWAgent"
+      ]
+    },
+    {
+      "id": "remote-utilities",
+      "productFamily": "Remote Utilities",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Remote Utilities",
+        "Remote Utilities - Host",
+        "Remote Utilities - Viewer"
+      ],
+      "serviceNames": [
+        "Remote Utilities - Host"
+      ],
+      "processNames": [
+        "rutserv",
+        "rfusclient",
+        "rutview"
+      ],
+      "executableOriginalNames": [
+        "rutserv.exe",
+        "rfusclient.exe",
+        "rutview.exe"
+      ],
+      "publishers": [
+        "Remote Utilities LLC"
+      ],
+      "productMetadata": [
+        "Remote Utilities",
+        "Remote Utilities Host"
+      ]
+    },
+    {
+      "id": "radmin",
+      "productFamily": "Radmin",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Radmin",
+        "Radmin Server",
+        "Radmin Viewer",
+        "Radmin Server 3",
+        "Radmin Viewer 3"
+      ],
+      "serviceNames": [
+        "Radmin Server V3",
+        "RServer3"
+      ],
+      "processNames": [
+        "rserver3",
+        "radmin"
+      ],
+      "executableOriginalNames": [
+        "rserver3.exe",
+        "radmin.exe"
+      ],
+      "publishers": [
+        "Famatech"
+      ],
+      "productMetadata": [
+        "Radmin",
+        "Radmin Server",
+        "Radmin Viewer"
+      ]
+    },
+    {
+      "id": "ultravnc",
+      "productFamily": "UltraVNC",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "UltraVNC"
+      ],
+      "serviceNames": [
+        "uvnc_service"
+      ],
+      "processNames": [],
+      "executableOriginalNames": [],
+      "publishers": [],
+      "productMetadata": [
+        "UltraVNC"
+      ]
+    },
+    {
+      "id": "tightvnc",
+      "productFamily": "TightVNC",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "TightVNC",
+        "TightVNC Server"
+      ],
+      "serviceNames": [
+        "tvnserver"
+      ],
+      "processNames": [
+        "tvnserver",
+        "tvnviewer"
+      ],
+      "executableOriginalNames": [
+        "tvnserver.exe",
+        "tvnviewer.exe"
+      ],
+      "publishers": [
+        "GlavSoft LLC"
+      ],
+      "productMetadata": [
+        "TightVNC",
+        "TightVNC Server"
+      ]
+    },
+    {
+      "id": "realvnc",
+      "productFamily": "RealVNC",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "RealVNC",
+        "RealVNC Server",
+        "RealVNC Viewer",
+        "VNC Connect"
+      ],
+      "serviceNames": [
+        "vncserver"
+      ],
+      "processNames": [
+        "vncserver",
+        "vncviewer"
+      ],
+      "executableOriginalNames": [],
+      "publishers": [
+        "RealVNC Ltd"
+      ],
+      "productMetadata": [
+        "RealVNC",
+        "RealVNC Server",
+        "RealVNC Viewer",
+        "VNC Connect"
+      ]
+    },
+    {
+      "id": "litemanager",
+      "productFamily": "LiteManager",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "LiteManager",
+        "LiteManager Pro - Server",
+        "LiteManager Pro - Viewer"
+      ],
+      "serviceNames": [
+        "ROMService"
+      ],
+      "processNames": [
+        "ROMServer",
+        "ROMViewer"
+      ],
+      "executableOriginalNames": [
+        "ROMServer.exe",
+        "ROMViewer.exe"
+      ],
+      "publishers": [
+        "LiteManagerTeam"
+      ],
+      "productMetadata": [
+        "LiteManager",
+        "LiteManager Pro"
+      ]
+    },
+    {
+      "id": "screenconnect",
+      "productFamily": "ConnectWise Control",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "ConnectWise Control",
+        "ScreenConnect",
+        "ScreenConnect Client"
+      ],
+      "serviceNames": [],
+      "processNames": [
+        "ScreenConnect.ClientService",
+        "ScreenConnect.WindowsClient"
+      ],
+      "executableOriginalNames": [
+        "ScreenConnect.ClientService.exe",
+        "ScreenConnect.WindowsClient.exe"
+      ],
+      "publishers": [
+        "ConnectWise, LLC"
+      ],
+      "productMetadata": [
+        "ScreenConnect",
+        "ConnectWise Control",
+        "ScreenConnect Client"
+      ]
+    },
+    {
+      "id": "splashtop",
+      "productFamily": "Splashtop",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Splashtop",
+        "Splashtop Streamer",
+        "Splashtop Business"
+      ],
+      "serviceNames": [
+        "SplashtopRemoteService"
+      ],
+      "processNames": [
+        "SRService",
+        "SRServer",
+        "Splashtop Business"
+      ],
+      "executableOriginalNames": [
+        "SRService.exe",
+        "SRServer.exe"
+      ],
+      "publishers": [
+        "Splashtop Inc.",
+        "Splashtop Inc"
+      ],
+      "productMetadata": [
+        "Splashtop Streamer",
+        "Splashtop Business"
+      ]
+    },
+    {
+      "id": "zoho-assist",
+      "productFamily": "Zoho Assist",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Zoho Assist",
+        "Zoho Assist Unattended Agent"
+      ],
+      "serviceNames": [
+        "Zoho Assist Unattended Agent"
+      ],
+      "processNames": [
+        "ZohoURS"
+      ],
+      "executableOriginalNames": [
+        "ZohoURS.exe"
+      ],
+      "publishers": [
+        "Zoho Corporation"
+      ],
+      "productMetadata": [
+        "Zoho Assist"
+      ]
+    },
+    {
+      "id": "chrome-remote-desktop",
+      "productFamily": "Chrome Remote Desktop Host",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "Chrome Remote Desktop Host",
+        "Chrome Remote Desktop"
+      ],
+      "serviceNames": [
+        "chromoting"
+      ],
+      "processNames": [
+        "remoting_host"
+      ],
+      "executableOriginalNames": [
+        "remoting_host.exe"
+      ],
+      "publishers": [
+        "Google LLC"
+      ],
+      "productMetadata": [
+        "Chrome Remote Desktop Host",
+        "Chrome Remote Desktop"
+      ]
+    },
+    {
+      "id": "goto-resolve",
+      "productFamily": "GoTo Resolve / LogMeIn Rescue",
+      "category": "third_party",
+      "severitySuggestion": "review",
+      "version": 1,
+      "aliases": [
+        "GoTo Resolve",
+        "LogMeIn Rescue",
+        "LogMeIn Rescue Calling Card"
+      ],
+      "serviceNames": [],
+      "processNames": [
+        "LMIRTechConsole",
+        "LMIRClient",
+        "GoToResolve"
+      ],
+      "executableOriginalNames": [
+        "LMIRTechConsole.exe",
+        "LMIRClient.exe",
+        "GoToResolve.exe"
+      ],
+      "publishers": [
+        "GoTo Technologies USA, LLC",
+        "LogMeIn, Inc."
+      ],
+      "productMetadata": [
+        "LogMeIn Rescue",
+        "GoTo Resolve"
+      ]
+    },
+    {
+      "id": "rdp",
+      "productFamily": "Remote Desktop (RDP)",
+      "category": "windows",
+      "severitySuggestion": "informational",
+      "version": 1,
+      "aliases": [
+        "Remote Desktop Connection"
+      ],
+      "serviceNames": [
+        "TermService"
+      ],
+      "processNames": [
+        "mstsc"
+      ],
+      "executableOriginalNames": [
+        "mstsc.exe"
+      ],
+      "publishers": [
+        "Microsoft Corporation"
+      ],
+      "productMetadata": [
+        "Remote Desktop Connection"
+      ]
+    },
+    {
+      "id": "quick-assist",
+      "productFamily": "Quick Assist",
+      "category": "windows",
+      "severitySuggestion": "informational",
+      "version": 1,
+      "aliases": [
+        "Quick Assist",
+        "Быстрая помощь"
+      ],
+      "serviceNames": [],
+      "processNames": [
+        "QuickAssist"
+      ],
+      "executableOriginalNames": [
+        "QuickAssist.exe"
+      ],
+      "publishers": [
+        "Microsoft Corporation"
+      ],
+      "productMetadata": [
+        "Quick Assist"
+      ]
+    },
+    {
+      "id": "remote-assistance",
+      "productFamily": "Remote Assistance",
+      "category": "windows",
+      "severitySuggestion": "informational",
+      "version": 1,
+      "aliases": [
+        "Windows Remote Assistance"
+      ],
+      "serviceNames": [],
+      "processNames": [
+        "msra"
+      ],
+      "executableOriginalNames": [
+        "msra.exe"
+      ],
+      "publishers": [
+        "Microsoft Corporation"
+      ],
+      "productMetadata": [
+        "Windows Remote Assistance"
+      ]
+    },
+    {
+      "id": "winrm",
+      "productFamily": "WinRM",
+      "category": "windows",
+      "severitySuggestion": "informational",
+      "version": 1,
+      "aliases": [
+        "Windows Remote Management"
+      ],
+      "serviceNames": [
+        "WinRM"
+      ],
+      "processNames": [],
+      "executableOriginalNames": [],
+      "publishers": [
+        "Microsoft Corporation"
+      ],
+      "productMetadata": [
+        "Windows Remote Management"
+      ]
+    }
+  ]
+}

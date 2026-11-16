@@ -1,0 +1,147 @@
+[
+  {
+    "id": "11111111-1111-4111-8111-111111111111",
+    "hostname": "OFFICE-01",
+    "os": "Windows 11 Pro",
+    "addresses": [
+      "192.0.2.12"
+    ],
+    "inventory": {
+      "protocolVersion": 1,
+      "scanId": "eeeeeeee-0000-4000-8000-111111111111",
+      "scannedAt": "2026-11-13T08:00:00Z",
+      "coverage": [
+        {
+          "source": "machineRegistry",
+          "status": "complete",
+          "entries": 1
+        },
+        {
+          "source": "userRegistry",
+          "status": "complete",
+          "entries": 0
+        },
+        {
+          "source": "services",
+          "status": "complete",
+          "entries": 0
+        },
+        {
+          "source": "processes",
+          "status": "complete",
+          "entries": 1
+        }
+      ],
+      "observations": [
+        {
+          "kind": "registry",
+          "name": "AnyDesk",
+          "publisher": "AnyDesk Software GmbH",
+          "version": "9.5.1"
+        },
+        {
+          "kind": "process",
+          "name": "AnyDesk",
+          "path": "C:\\Program Files\\AnyDesk\\AnyDesk.exe",
+          "publisher": "AnyDesk Software GmbH",
+          "originalFilename": "AnyDesk.exe",
+          "product": "AnyDesk",
+          "version": "9.5.1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "22222222-2222-4222-8222-222222222222",
+    "hostname": "OFFICE-02",
+    "os": "Windows 10 Pro",
+    "addresses": [
+      "192.0.2.14"
+    ],
+    "inventory": {
+      "protocolVersion": 1,
+      "scanId": "eeeeeeee-0000-4000-8000-222222222222",
+      "scannedAt": "2026-11-13T08:00:00Z",
+      "coverage": [
+        {
+          "source": "machineRegistry",
+          "status": "complete",
+          "entries": 1
+        },
+        {
+          "source": "userRegistry",
+          "status": "complete",
+          "entries": 0
+        },
+        {
+          "source": "services",
+          "status": "complete",
+          "entries": 0
+        },
+        {
+          "source": "processes",
+          "status": "complete",
+          "entries": 0
+        }
+      ],
+      "observations": [
+        {
+          "kind": "registry",
+          "name": "RuDesktop",
+          "version": "2.7.0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "33333333-3333-4333-8333-333333333333",
+    "hostname": "OFFICE-03",
+    "os": "",
+    "addresses": [
+      "192.0.2.17"
+    ],
+    "inventory": null
+  },
+  {
+    "id": "44444444-4444-4444-8444-444444444444",
+    "hostname": "OFFICE-04",
+    "os": "Windows 11 Pro",
+    "addresses": [
+      "192.0.2.21"
+    ],
+    "inventory": {
+      "protocolVersion": 1,
+      "scanId": "eeeeeeee-0000-4000-8000-444444444444",
+      "scannedAt": "2026-11-13T08:00:00Z",
+      "coverage": [
+        {
+          "source": "machineRegistry",
+          "status": "complete",
+          "entries": 1
+        },
+        {
+          "source": "userRegistry",
+          "status": "complete",
+          "entries": 0
+        },
+        {
+          "source": "services",
+          "status": "complete",
+          "entries": 0
+        },
+        {
+          "source": "processes",
+          "status": "partial",
+          "entries": 0,
+          "reason": "Пути части процессов недоступны"
+        }
+      ],
+      "observations": [
+        {
+          "kind": "registry",
+          "name": "Example Text Editor"
+        }
+      ]
+    }
+  }
+]

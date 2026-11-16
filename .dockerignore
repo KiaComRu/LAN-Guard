@@ -1,0 +1,14 @@
+.git
+.tooling
+**/node_modules
+**/bin
+**/obj
+**/dist
+artifacts
+certs
+**/wwwroot
+data
+**/*.pfx
+**/*.pem
+**/*.key
+**/.env

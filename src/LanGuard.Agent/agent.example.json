@@ -1,0 +1,8 @@
+{
+  "Agent": {
+    "Server": "https://lan-guard.example.test:7443",
+    "HeartbeatSeconds": 30,
+    "ScanMinutes": 720,
+    "RotationDays": 30
+  }
+}

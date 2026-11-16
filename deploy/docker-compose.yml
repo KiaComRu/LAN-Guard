@@ -1,0 +1,28 @@
+services:
+  languard:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    environment:
+      ASPNETCORE_URLS: https://+:7443
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /run/languard/tls.pfx
+      ASPNETCORE_Kestrel__Certificates__Default__Password: ${LAN_GUARD_TLS_PASSWORD:?Set LAN_GUARD_TLS_PASSWORD}
+      LanGuard__Demo: ${LAN_GUARD_DEMO:-false}
+      LanGuard__DataPath: /data
+      LanGuard__AdminLogin: ${LAN_GUARD_ADMIN_LOGIN:-admin}
+      LanGuard__AdminPassword: ${LAN_GUARD_ADMIN_PASSWORD:?Set LAN_GUARD_ADMIN_PASSWORD}
+      ConnectionStrings__Postgres: ${LAN_GUARD_POSTGRES_CONNECTION:-}
+    ports:
+      - "${LAN_GUARD_BIND_IP:-127.0.0.1}:${LAN_GUARD_PORT:-7443}:7443"
+    volumes:
+      - guard-data:/data
+      - type: bind
+        source: ${LAN_GUARD_TLS_PFX:?Set LAN_GUARD_TLS_PFX}
+        target: /run/languard/tls.pfx
+        read_only: true
+        bind:
+          create_host_path: false
+    restart: unless-stopped
+
+volumes:
+  guard-data:

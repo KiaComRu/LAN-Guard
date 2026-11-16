@@ -1,0 +1,17 @@
+.tooling/
+.env
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/TestResults/
+artifacts/
+certs/
+**/wwwroot/
+data/
+*.db
+*.db-*
+*.pfx
+*.pem
+*.key
+*.user
